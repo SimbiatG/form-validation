@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> User Information </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/style.js"></script>
+</head>
+<body class="layout">
+    <section class="layout">
+       <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                        <div class="sidetext">
+                           
+                        <h3> Keep it Simple </h3>
+                        <h3> Keep it Intriguing </h3>
+                        <div class="sidetext1">
+                            <p> Your visitor landed on this page for a reason. Whatever you are offering, they are at least a little bit interested. </p>
+                            <p> Instead of writing an essay about your product, just give them some teaser copy. This way, you maintain a sense of mystery, which prompts them to learn more. In other to do that they will have to give you some info first.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <form class="sideform">
+                            <div class="form-row">
+                                    <label for="fullname"> Name </label>
+                                      <input type="text" required class="form-control">
+                                      
+                                            <label id="email-err">Email</label>
+                                            <input type="text" onkeyup="validator(this, 'email-err', 'email')" class="form-control" name="email" >
+
+                                           
+                                                 <label id="phone-err"> Phone-Number</label>
+                                                <input type="text"  onkeyup="validator(this, 'phone-err', 'phonenumber')" class="form-control" id="phone number">
+                                                
+                                            
+                                                        <label id="age-err"> Age </label>
+                                                        <input type="text"  onkeyup="validator(this, 'age-err', 'age')" class="form-control"  id="age" >
+                                                       
+                                                       
+                                <button type="submit" class="btn btn-primary submit">Sign in</button>
+                    </form>
+                </div>
+
+            </div>
+       </div>
+
+    </section>
+</body>
+</html>

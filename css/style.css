@@ -1,0 +1,49 @@
+
+body .layout{
+	height: 100%;
+	width: 100%;
+	color: ghostwhite;
+	}
+
+.layout{
+	background-image: url('../img/lights.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sidetext{
+	margin-top: 100px;
+	padding: 70px;
+}
+
+.sidetext1{
+	margin-top: 50px;
+}
+
+.sideform{
+	border: 1.5px solid ghostwhite;
+	border-radius: 5px;
+	padding: 30px;
+	margin-top: 150px;
+}
+
+
+.submit{
+	margin-top: 20px;
+	
+}
+
+.form-row input {
+	background-color: transparent;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 0px;
+	border-bottom: 1px solid white;
+	
+	outline: none;
+}
+
+.form-row label {
+	margin-top: 15px;
+}
